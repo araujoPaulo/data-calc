@@ -1,0 +1,83 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "changelog": {
+      "name": "changelog",
+      "command": "npm run changelog",
+      "runAtStart": false
+    },
+    "changelog:update": {
+      "name": "changelog:update",
+      "command": "npm run changelog:update",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "npm run clean",
+      "runAtStart": false
+    },
+    "clean:all": {
+      "name": "clean:all",
+      "command": "npm run clean:all",
+      "runAtStart": false
+    },
+    "cover": {
+      "name": "cover",
+      "command": "npm run cover",
+      "runAtStart": false
+    },
+    "cover:check": {
+      "name": "cover:check",
+      "command": "npm run cover:check",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": true
+    },
+    "preversion": {
+      "name": "preversion",
+      "command": "npm run preversion",
+      "runAtStart": false
+    },
+    "postversion": {
+      "name": "postversion",
+      "command": "npm run postversion",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "npm run prepare",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "upgrade": {
+      "name": "upgrade",
+      "command": "npm run upgrade",
+      "runAtStart": false
+    },
+    "version": {
+      "name": "version",
+      "command": "npm run version",
+      "runAtStart": false
+    }
+  }
+}
