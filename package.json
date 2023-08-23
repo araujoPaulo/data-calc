@@ -1,19 +1,19 @@
 {
-  "name": "typescript-template",
-  "version": "1.0.5",
-  "description": "A complete Node.js project template using TypeScript and following general best practices.",
+  "name": "data-calc",
+  "version": "1.0.0",
+  "description": "Project to realtime data analytics.",
   "keywords": [
     "typescript",
-    "template"
+    "analytics",
+    "bullmq"
   ],
   "author": {
-    "name": "Chris Wells",
-    "url": "https://chriswells.io"
+    "name": "Paulo Araújo"
   },
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chriswells0/node-typescript-template.git"
+    "url": ""
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -58,6 +58,8 @@
     }
   },
   "dependencies": {
+    "bullmq": "^4.8.0",
+    "redis": "^4.6.7",
     "sitka": "^1.0.6"
   }
 }
